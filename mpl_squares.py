@@ -10,6 +10,9 @@ squares = [1, 4, 9, 16, 25]
 input_values = [1, 2, 3, 4, 5]
 # with this plot() has the input(x) and output(y) values used to calculate the squares
 
+# use built-in style
+plt.style.use('Solarize_Light2')
+
 # Subplots() function generates one or more plots in the same figure
 # Variable fig represents the entire figure, which is the collection of plots that are generated
 # Variable ax represents an Axes object, which is the whole plot area that contains the x-axis
@@ -47,3 +50,10 @@ for x, y in zip(input_values, squares): # zip pairs each x with its matching y, 
 
 # opens matplotlib's viewer and displays the plot
 plt.show()
+
+# for built-in styles
+# 'plt.style.available' in terminal(start python interpreter)
+
+# or
+
+# print(plt.style.available)
