@@ -57,3 +57,6 @@ plt.show()
 # or
 
 # print(plt.style.available)
+
+# summary: this section teaches the very basics of matplotlib, working with pre-defined data, which also contain the x and y coordinates.
+# generating a figure and an axes then customizing the axes with tick marks, font sizes, built-in styles, labels, etc.
